@@ -5,7 +5,6 @@ const ImageminPngquant = require('imagemin-pngquant');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const PostCSSPresetEnv = require('postcss-preset-env');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
@@ -90,6 +89,5 @@ module.exports = merge(common, {
         }),
       ],
     }),
-    new BundleAnalyzerPlugin(),
   ],
 });
