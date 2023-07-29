@@ -1,12 +1,12 @@
 @font-face {
-  font-display: swap;
+  font-display: optional;
   font-family: 'Azeret Mono';
   font-style: normal;
   font-weight: 400;
   src: url('../public/fonts/AzeretMono-400.woff2') format('woff2');
 }
 @font-face {
-  font-display: swap;
+  font-display: optional;
   font-family: 'Aboreto';
   font-style: normal;
   font-weight: 400;
