@@ -393,6 +393,7 @@
   .favorite {
     position: fixed;
     inset: auto 10% 50% auto;
+    z-index: 7;
 
     border-radius: 50%;
     display: inline-flex;
