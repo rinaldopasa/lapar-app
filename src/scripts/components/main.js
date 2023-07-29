@@ -4,14 +4,7 @@ class Main extends HTMLElement {
     this.innerHTML = `
       <main id="mainContent" tabindex="0">
         <div class="wrapper space">
-          <section class="space">
-            <h2>Explore Restaurants</h2>
-            <p>
-              Looking for the best restaurants? Our app has a comprehensive list
-              of restaurants in Indonesia. Whether you're in the mood, we've got
-              you covered. Find your new favorite restaurant today!
-            </p> 
-            <div id="restaurants" class="space"></div>
+          <section id="restaurants" class="space">
           </section>
           <section id="support" class="space">
             <h2>Supported By</h2>

@@ -8,6 +8,12 @@ import {
 const ListRestaurant = {
   async render() {
     return `
+     <h2>Explore Restaurants</h2>
+      <p>
+        Looking for the best restaurants? Our app has a comprehensive list
+        of restaurants in Indonesia. Whether you're in the mood, we've got
+        you covered. Find your new favorite restaurant today!
+      </p> 
     <div id="spinnerContainer"></div>
     <div id="restaurantsContent">
       ${createSkeletonRestaurantTemplate(20)}
