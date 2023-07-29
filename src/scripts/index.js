@@ -17,9 +17,9 @@ const initializeApp = async () => {
   );
 
   const app = new App({
-    button: document.querySelector('#mobileBtn'),
-    drawer: document.querySelector('#navigationDrawer'),
-    content: document.querySelector('#restaurants'),
+    button: document.getElementById('mobileBtn'),
+    drawer: document.getElementById('navigationDrawer'),
+    content: document.getElementById('restaurants'),
   });
 
   window.addEventListener('hashchange', () => app.renderPage());
@@ -31,16 +31,3 @@ const initializeApp = async () => {
 };
 
 initializeApp();
-
-// const app = new App({
-//   button: document.querySelector('#mobileBtn'),
-//   drawer: document.querySelector('#navigationDrawer'),
-//   content: document.querySelector('#restaurants'),
-// });
-
-// window.addEventListener('hashchange', () => app.renderPage());
-
-// window.addEventListener('load', () => {
-//   app.renderPage();
-//   swRegister();
-// });
