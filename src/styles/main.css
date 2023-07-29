@@ -67,6 +67,7 @@
     color: var(--clr-1);
     position: sticky;
     top: 0;
+    block-size: 100%;
   }
 
   button,
@@ -91,7 +92,7 @@
 
   .skip-link {
     position: absolute;
-    top: -5rem;
+    top: -10rem;
     left: 0.4rem;
     padding: 0.75rem 1rem;
     background-color: var(--clr-5);
@@ -101,7 +102,7 @@
     text-underline-offset: 3px;
 
     &:focus-visible {
-      top: 0.4rem;
+      top: -4.7rem;
     }
   }
 
