@@ -46,7 +46,7 @@ class Header extends HTMLElement {
         <picture class="hero__pic">
           <source media="(max-width: 600px)" srcset="./images/heros/hero-image-small.webp" width="600" height="337.5" type="image/webp">
           <source media="(min-width: 601px)" srcset="./images/heros/hero-image-large.webp" width="1000" height="562.5" type="image/webp">
-          <img width="1000" height="562.5" src="./images/heros/hero-image-large.jpg" alt="A bowl of food next to a bunch of flowers" >
+          <img fetchpriority="high" width="1000" height="562.5" src="./images/heros/hero-image-large.jpg" alt="A bowl of food next to a bunch of flowers" >
         </picture>
         <div class="overlay"></div>
         </div>
